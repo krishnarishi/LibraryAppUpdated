@@ -1,0 +1,22 @@
+{
+  "name": "library-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krishna",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-validation": "^3.0.6",
+    "express-validator": "^6.8.0",
+    "jquery": "^3.5.1",
+    "jquery-validation": "^1.19.2",
+    "mongoose": "5.11.8"
+  }
+}
