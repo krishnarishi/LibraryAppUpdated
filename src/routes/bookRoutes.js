@@ -1,6 +1,5 @@
 const express = require('express');
-const { db, findById } = require('../model/Bookdata');
-const Bookdata = require('../model/Bookdata');
+const Bookdata = require('../model/bookdata');
 const booksRouter = express.Router();
 
 function router(homeNav){
